@@ -75,9 +75,9 @@ javac Main.java
 ```
 
 ## Contributors
-Adea Gerguri
-Albin Arifaj
-Bleron Mujaj
-Ermira Gashi
-Urtina Deskaj
+- Adea Gerguri
+- Albin Arifaj
+- Bleron Mujaj
+- Ermira Gashi
+- Urtina Deskaj
 
