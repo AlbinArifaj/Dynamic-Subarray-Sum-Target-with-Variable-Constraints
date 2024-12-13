@@ -2,9 +2,30 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        int[] a = {-3,-1,-10,-9};
+//        int[] a = {-3,-1,-10,-9};
+//        ArrayList<Result> results = findSubs(a, -20, 1,4 , -100, 100);
+//        int[] a = {1,2,3,4,5};
+//        ArrayList<Result> results = findSubs(a, 5, 1,4 , -100, 100);
+//        int[] a = {0,0,1,0,0};
+//        ArrayList<Result> results = findSubs(a, 1, 1,4 , -100, 100);
+//        int[] a = {0,0,0,0,0};
+//        ArrayList<Result> results = findSubs(a, 0, 1,3 , -100, 100);
+//        int[] a = {7,2,3};
+//        ArrayList<Result> results = findSubs(a, 12, 1,4 , 4, 100);
+//        int[] a = {10,10,10,10,10};
+//        ArrayList<Result> results = findSubs(a, 10, 1,4 , -100, 100);
+//        int[] a = {1,-1,2,-2,3,3};
+//        ArrayList<Result> results = findSubs(a, 3, 1,3 , -100, 100);
+//        int[] a = {7,4,3,7,6,1};
+//        ArrayList<Result> results = findSubs(a, 7, 1,1 , -100, 100);
+        int[] a = {9,10,1,20,10,10};
+        ArrayList<Result> results = findSubs(a, 20, 2,50 , 9, 100);
 
-        ArrayList<Result> results = findSubs(a, -20, 1,4 , -1, 100);
+
+
+
+
+
         printRes(results);
     }
     public static ArrayList<Result> findSubs(int[] nums, int target, int min, int max, int minvalue, int maxvalue) throws Exception {
@@ -108,7 +129,6 @@ public class Main {
                 System.out.print(val + " ");
             }
             System.out.println("\n");
-            System.out.println("hello");
         }
     }
 
